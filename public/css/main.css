@@ -1,0 +1,702 @@
+
+/*ground start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins';
+    
+}
+/*ground slut*/
+
+
+/*grid start*/
+.gridcontainer{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 130px 780px 644px 520px 895px 1080px;
+    max-width:1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    grid-column: 1 / 13;
+}
+header{
+    grid-column: 1 / 13;
+    grid-row: 2/3;
+}
+.autumn{
+    grid-column: 1 / 6;
+    grid-row: 3 /4;
+}
+.autumn-image{
+    grid-column: 7 / 13;
+    grid-row: 3 / 4;
+}
+.sustainable-image{
+    grid-column:  1 / 6;
+    grid-row: 4 / 5;
+}
+.sustainable{
+    grid-column: 7 / 13;
+    grid-row: 4 / 5;
+}
+.form{
+    grid-column: 1 / 13;
+    grid-row: 5 / 6;
+}
+footer{
+    grid-column: 1 / 13;
+    grid-row: 6 / 7;
+}
+#grid{
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:(100%, auto);
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 0;
+    display: none;
+    border: 20px solid green;
+}
+#grid p{
+    border: 10px solid green;
+    background: #000;
+    margin: 0;
+    opacity: 0.2;
+}
+input:checked + .gridcontainer #grid{
+    text-align: center;
+    display: grid;
+}
+/*grid end*/
+
+/*header start*/
+nav{
+    position: absolute;
+    width: 1440px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+   
+}
+.logo{
+    width: 60px;
+    height: 70px;
+    margin-top: 30px;
+    margin-right:65;
+}
+.nav-button{
+    position: absolute;
+    width: 134px;
+    height: 50px;
+    left: 1237.5px;
+    top: 40px;
+    background: #ECD400;
+    border-radius: 1000px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #202E55;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+nav ul{
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #202E55;
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 84px;
+    height: 24px;
+}
+.navbar a:hover {
+    color: #666; 
+    border-color: #666 transparent;
+}
+header{
+    margin-bottom:101px;
+}
+
+
+#hero{
+    width:100%;
+    height: 780px;
+    background: url('/Image/hero.png') no-repeat center / cover; 
+}
+.hero-container{
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+}
+.hero-container .hero-info h1{
+    position: absolute;
+    width: 676px;
+    height: 156px;
+    left: 141px;
+    top: 333px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+
+/* or 108% */
+
+/* Brand/Deep Blue */
+color: #202E55;
+
+
+}
+.hero-container .hero-info p{
+    width: 461px;
+    height: 104px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202E55;
+    position: absolute;
+    left: 141px;
+    top: 531px;
+
+
+}
+.hero-button{
+  background-color:#ECD400;
+  width: 160px;
+  height: 52px; 
+  border: none;
+  color: #202E55;
+  padding: 14px 32px;
+  border-radius: 1000px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 669px 96px 59px 141px;
+  
+  
+  
+
+
+}
+/*header end*/
+
+
+
+  
+/*section autumn start*/
+
+.white-space{
+    width:100%;
+    height: 124px;
+    background-color: white;
+}
+.autumn{
+    padding-top:124px:
+    width: 656px;
+    height: 520px;
+    margin-left: 64px;
+   
+}
+.autumn-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 480px;
+    height: 178px;
+    margin: 133px 96px 209px 144px;
+}
+
+.autumn-info-small-text{
+    color: yellow;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2,4rem;
+    letter-spacing: 0em;
+    text-align: left;
+}   
+.autumn-info h3{
+    font-size: 32px;
+    line-height: 3,6rem;
+    color: #0B0C0C;
+   
+}
+.autumn-info p{
+    font-weight: 400;
+    font-size: 16;px
+    line-height: 26px;
+    color:#464749;
+    
+   
+}
+.autumn-button{
+    background-color:#ECD400;
+    width: 128px;
+    height: 52px;
+    border-radius: 1000px;
+    padding: 14px 32px 14px 32px;
+    margin-top: 24px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #202E55;
+}
+.autumn-image{
+    width: 656px;
+    height: 520px;
+    border-radius: 0px 8px 8px 0px;
+    margin-right: 64px;
+}
+/*section autumn end*/
+
+
+/*section sustainable start*/
+.sustainable-image{
+    width: 656px;
+    height: 520px;
+    border-radius: 0px 8px 8px 0px;
+    padding-left: 68px;
+    
+}
+.sustainable{
+    width: 656px;
+    height: 520px;
+    margin-right: 64px;
+    
+}
+.sustainable-info{
+    height: 178px;
+    width: 480px;
+    margin: 133px 144px 209px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px; 
+}
+.sustainable-info-small-text{
+    color: rgb(184, 33, 79);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2,4rem;
+    letter-spacing: 0em;
+    text-align: left;
+ }   
+.sustainable-info h3{
+    font-size: 32px;
+    line-height: 3,6rem;
+    color: #0B0C0C;
+    
+}
+.sustainable-info p{
+    font-weight: 400;
+    font-size: 16;px
+    line-height: 26px;
+    color:#464749;
+    
+}
+.sustainable-button{
+    margin-top: 24px;
+    background-color:#ECD400;
+    width: 128px;
+    height: 52px;
+    border-radius: 1000px;
+    padding: 14px 32px 14px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #202E55;
+}
+/*section sustainable end*/
+
+
+/*form start*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 112px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 1312px;
+    height: 895px;
+    left: 63px;
+    top: 2084px;
+    
+    background: #F5F5F5;
+    border-radius: 40px;
+    color: #0B0C0C;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 520px;
+    height: 178px;
+}
+.form-info-small-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A6A9AE;
+    margin-bottom: 8px;
+}
+.form-info h3{
+    width: 520px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #0B0C0C;
+}
+.form-p{
+    width: 480px;
+    height: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #464749;
+}
+
+.form-text-input{
+    width: 1088px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    left: 0px;
+    top: 32px;
+    border-radius: 4px;
+    padding: 8px 16px 8px 10px;
+    background: #FFFFFF;
+    border: 1px solid #C8C2BD;
+    border-radius: 4px;
+}
+    
+ .divider{
+    width: 1088px;
+    height: 1px;
+    background: #202E55;
+    opacity: 0.2;
+    border: 1px solid #464749;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.radio-header{
+    width: 133px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+ 
+
+.radio-container{
+   width:100%;
+   height: auto;
+   display: grid;
+   place-items: center;
+}
+
+.radio-form-info{
+    
+    width: 1200px;
+    height:auto;
+    border-radius: 5px;
+    box-shadow: 0px 5 px 12px -6px rgba(0,0,0,0.4);
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+   
+}
+.hidebx{
+    display:none;
+}
+.lbl-radio{
+    text-align: center;
+    padding: 14px 32px;
+  
+    width: 540px;
+    height: 50px;
+    background: #ECD400;
+    border-radius: 1000px;
+}
+.box1{
+    width: 120px;
+height: 22px;
+
+/* Heading/S */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #202E55;
+}
+
+
+/*form end*/
+
+
+/*footer top-container start*/
+
+footer{
+
+    position: relative;
+}
+#footer-top-container{
+    width: 100%;
+    height: 780px;
+    background: url('/Image/fullwith.jpg') no-repeat center / cover; 
+}
+
+.footer-top-info{
+    width: 1312px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-left: 64px;
+    padding-top: 112px;
+   
+   
+}
+.footer-top-info h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 256px;
+    width: 582px;
+    height: 52px;
+    text-align: center;
+}
+.footer-top-info p{
+    width: 480px;
+    height: 104px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 24px;
+    margin-bottom: 24px;
+}
+.footer-button{
+    background: #FFFFFF;
+    width: 233px;
+    height: 52px;
+    border-radius: 1000px;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #202E55;
+    text-decoration: none;
+}
+
+/*footer top-container start*/
+
+
+/*footer end-container start*/
+
+.footer-end-container{
+    width: 1440px;
+    height: 600px;
+    background: #ECD400;
+    position: relative;
+}
+.logo-blue{
+    position: absolute;
+    width: 190px;
+    height: 220px;
+    left: 64px;
+    top: 120px;
+
+
+}  
+.footer-info{
+    width: 560px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    left: 288px;
+    top: 131px;
+
+
+  
+}
+.footer-info h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #202E55;
+}
+.footer-info p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202E55;
+}
+.footer-devider{
+
+    position: absolute;
+    width: 1312px;
+    height: 1px;
+    left: 64px;
+    top: 447px;
+    background: #202E55;
+}
+
+
+.contact{
+    position: absolute;
+    left: 1184px;
+    top: 137px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+   
+}
+.contact-devider-top{
+    
+    background: #202E55;
+}
+.contact p{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202E55;
+}
+.phone{
+    width: 182px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202E55;
+}
+.email{
+    width: 182px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #202E55;
+}
+.link-group{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    
+    left: 344px;
+    top: 512px;
+    font-family: 'PP Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+/*footer top-container start*/
+
+
+
+
+
+
+
+/*footer end*/
+
+
+    
+    
+    
+
+
