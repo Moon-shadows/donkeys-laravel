@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Donkey</title>
         <link rel="stylesheet" href="/css/main.css">
     </head>
@@ -14,7 +15,9 @@
           <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
         </div>
 
-        <nav>
+       
+        <header>
+          <nav>
             <img src="/Image/Logo.svg" alt="Logo" class="logo">
             <ul>
               <li><a href="#">Våra kläder</a></li>
@@ -25,7 +28,6 @@
             </ul>
           <a href="#" class="nav-button">Get in touch</a>
         </nav>
-        <header>
           <section id="hero">
             <div class="hero-container">
               <div class="hero-info">
@@ -40,35 +42,27 @@
           </section>
         </header>
 
-        <div class="white-space"></div>
-        
-        
+       
         <section class="autumn">
-            <div class="white-space"></div> 
+           
           <div class="autumn-info">
-            <div class="autumn-info-small-text">
-                <p>HÖSTKLÄDER</p>
-            </div>
-              <h3>Härliga höstnyheter
-              </h3>
+            <div class="autumn-info-small-text">HÖSTKLÄDER</div>
+              <h3>Härliga höstnyheter</h3>
               <p>Donkey har kläder till barn, från nyfödd och baby, till barn i förskole- 
-                 och skolåldern. Barnkläder och bebiskläder som underlättar vardagen och som 
-                 fungerar lika bra för fartfyllda utomhusaktiviteter som till fest.
+                  och skolåldern. Barnkläder och bebiskläder som underlättar vardagen och som 
+                  fungerar lika bra för fartfyllda utomhusaktiviteter som till fest.
               </p>
-
-              <div>
-                <a href="#" class="autumn-button">Shoppa nu</a>
-              </div>
+              <div><a href="#" class="autumn-button">Shoppa nu</a></div>
             </div>
          </section>
 
         <aside class="autumn-image">
-            <div class="white-space"></div> 
-          <img class="autumn-image" src="/Image/skogsbarn.png" alt="Litet barn som leker i skogen.">
+          
+          <img class="autumn-image" src="/Image/skogsbarn.png" alt="Litet barn leker i skogen.">
         </aside>
 
         <aside class="sustainable-image">
-          <img  class="sustainable-image" src="/Image/gräsbarn.png"  alt="Litet barn som leker i gräset.">
+          <img  class="sustainable-image" src="/Image/gräsbarn.png"  alt="Litet barn leker i gräset.">
         </aside>
 
         <section class="sustainable">
@@ -89,68 +83,60 @@
           
         <section class="form-container">
           <div class="form-info">
-              <div class="form-info-small-text">
-                      <p>STÄLL EN FRÅGA</p>
-              </div>
-              <h3>Har du något du funderar över?
-              </h3>
+              <div class="form-info-small-text"><p>STÄLL EN FRÅGA</p></div>
+              <h3>Har du något du funderar över?</h3>
               <p class="form-p">Med 100 % hållbarhetsmärkt bomull i hela vår kollektion gör vi kläder till 
-                 baby och barn, men också kläder till den nyfödda familjemedlemmen.
-              </p>
-              
+                 baby och barn, men också kläder till den nyfödda familjemedlemmen.</p>
               <form action="#" method="POST">
                 <div class="form-input-group">
-                    <label class="form-label"  for="name">Namn</label>
+                    <label class="form-label">Namn</label>
                     <input class="form-text-input" type="text" name="name" 
-                     placeholder="Skriv ditt namn" required>
-                </div> 
+                     placeholder="Skriv ditt namn" required></div>
 
                 <div class="divider"></div>
-
+                
                 <div class="form-input-group">
                     <label class="form-label"  for="name">Email</label>
-                    <input class="form-text-input" type="text" name="email" 
-                     placeholder="Fyll i din mailadress" required>
-                </div> 
+                    <input class="form-text-input" type="text" name="email" placeholder="Fyll i din mailadress" required>
+                </div>
 
                 <div class="divider"></div>
 
-                
-                <p class="radio-header">Välj underkategori
-                </p>
-
+                <p class="radio-header">Välj underkategori</p>
                 <div class="radio-container">
                     <div class="radio-form-info">
                          <input type="radio" name="myRadio" id="1" class="hidebx" value="box1" > 
                          <label for="1" class="lbl-radio">
                             <div class="display-box">
-                                <div class="box1">Vald kategori1</div>
+                                <div class="box1">Vald kategori 1</div>
                             </div>
                          </label>
                          
                          <input type="radio" name="myRadio" id="2" class="hidebx" value="box1" > 
-                         <label for="2" class="lbl-radio">
+                         <label for="2" class="lbl-radio white">
                             <div class="display-box">
-                                <div class="box1">Kategori1</div>
+                                <div class="box1">Kategori 1</div>
                             </div>
                          </label>
 
                          <input type="radio" name="myRadio" id="3" class="hidebx" value="box1" > 
-                         <label for="3" class="lbl-radio">
+                         <label for="3" class="lbl-radio white">
                             <div class="display-box">
-                                <div class="box1">Kategori1</div>
+                                <div class="box1">Kategori 1</div>
                             </div>
                          </label>
 
                          <input type="radio" name="myRadio" id="4" class="hidebx" value="box1" > 
-                         <label for="4" class="lbl-radio">
+                         <label for="4" class="lbl-radio white">
                             <div class="display-box">
-                                <div class="box1">Kategori1</div>
+                                <div class="box1">Kategori 1</div>
                             </div>
                          </label>
 
+                         <div class="divider"></div>
+
                          <input type="radio" name="myRadio" id="5" class="hidebx" value="box1" > 
-                         <label for="5" class="lbl-radio">
+                         <label for="5" class="lbl-radio white">
                             <div class="display-box">
                                 <div class="box1">Rensa alternativ</div>
                             </div>
@@ -164,9 +150,7 @@
                          </label>
                     </div>
                 </div>
-                        
-
-            </form>
+              </form>
           </div>
         </section>
 
