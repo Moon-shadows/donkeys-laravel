@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Donkey</title>
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
       <input type="checkbox"/>
@@ -17,6 +18,7 @@
 
        
         <header>
+          
           <nav>
             <img src="/Image/Logo.svg" alt="Logo" class="logo">
             <ul>
@@ -27,6 +29,9 @@
               <li><a href="#">Om oss</a></li>
             </ul>
           <a href="#" class="nav-button">Get in touch</a>
+            <div class="hamburger">
+            <i class="fa fa-bars"></i>
+            </div>
         </nav>
           <section id="hero">
             <div class="hero-container">
@@ -44,7 +49,6 @@
 
        
         <section class="autumn">
-           
           <div class="autumn-info">
             <div class="autumn-info-small-text">HÖSTKLÄDER</div>
               <h3>Härliga höstnyheter</h3>
@@ -52,19 +56,16 @@
                   och skolåldern. Barnkläder och bebiskläder som underlättar vardagen och som 
                   fungerar lika bra för fartfyllda utomhusaktiviteter som till fest.
               </p>
-              <div><a href="#" class="autumn-button">Shoppa nu</a></div>
-            </div>
-         </section>
-
-        <aside class="autumn-image">
-          
-          <img class="autumn-image" src="/Image/skogsbarn.png" alt="Litet barn leker i skogen.">
-        </aside>
-
-        <aside class="sustainable-image">
-          <img  class="sustainable-image" src="/Image/gräsbarn.png"  alt="Litet barn leker i gräset.">
-        </aside>
-
+            <div><a href="#" class="autumn-button">Shoppa nu</a></div>
+          </div>
+        </section>
+          <aside class="autumn-image">
+            <img class="autumn-image" src="/Image/skogsbarn.png" alt="Litet barn leker i skogen.">
+          </aside>
+ 
+          <aside class="sustainable-image">
+            <img  class="sustainable-image" src="/Image/gräsbarn.png"  alt="Litet barn leker i gräset.">
+          </aside>
         <section class="sustainable">
           
             <div class="sustainable-info">
@@ -78,7 +79,6 @@
               </p>
               <a href="#" class="sustainable-button">Läs mer</a>
             </div>
-          
         </section>
           
         <section class="form-container">
